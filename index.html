@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CNN</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -33,15 +40,20 @@
           </nav>
         </div>
         <div class="header-right">
-          <div class="international-edition"></div>
+          <div class="international-edition">
+            <input type="checkbox" id="international-switcher" hidden />
+            <label for="international-switcher">International Edition +</label>
+          </div>
           <div class="page-search">
             <input type="checkbox" id="search-switcher" hidden />
-            <input type="search" name="" />
-            <label for="search-switcher">S</label>
+            <input type="search" class="page-search-field" />
+            <label for="search-switcher" class="search-switcher-label"
+              ><i class="fas fa-search"></i
+            ></label>
           </div>
           <div class="header-expanded-menu">
             <input type="checkbox" id="expanded-switcher" hidden />
-            <label for="expanded-switcher">=</label>
+            <label for="expanded-switcher"><i class="fas fa-bars"></i></label>
           </div>
         </div>
       </div>
