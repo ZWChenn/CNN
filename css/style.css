@@ -291,7 +291,7 @@ label:hover {
   position: absolute;
   top: 50px;
   right: 0;
-  /* z-index: 1000; */
+  z-index: 1000;
   display: none;
 }
 #expanded-switcher:checked ~ .header-expanded-menu-block {
@@ -362,6 +362,13 @@ label:hover {
 .expanded-bottom-block .international-block .flex-block {
   align-items: center;
 }
+/*==================*/
+/*= MAIN ===========*/
+/*==================*/
+article img {
+  width: 100%;
+}
+
 /*==================*/
 /*= FOOTER =========*/
 /*==================*/
