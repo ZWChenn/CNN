@@ -233,7 +233,7 @@ label:hover {
   padding: 8px 15px 15px;
   width: 250px;
   left: -70px;
-  /* z-index: 1000; */
+  z-index: 1000;
   box-sizing: border-box;
   font-weight: 300;
   display: none;
